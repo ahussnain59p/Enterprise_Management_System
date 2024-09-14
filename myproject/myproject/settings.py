@@ -19,14 +19,10 @@ MONGO_DB_HOST = os.getenv("MONGO_DB_HOST")
 MONGO_DB_PORT = int(os.getenv("MONGO_DB_PORT"))
 # myproject/settings.py
 
-PUSHER_APP_ID = "1845399"
-PUSHER_KEY = "81c6f073991827aafaa8"
-PUSHER_SECRET = "e03eda160060b8b0a885"
-PUSHER_CLUSTER = "ap2"
-# // app_id = 
-# // key = "81c6f073991827aafaa8"
-# // secret = "e03eda160060b8b0a885"
-# // cluster = "ap2"
+PUSHER_APP_ID = ""
+PUSHER_KEY = ""
+PUSHER_SECRET = ""
+PUSHER_CLUSTER = ""
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -93,8 +89,8 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "alisgroup70@gmail.com"  # Replace with your Gmail address
-EMAIL_HOST_PASSWORD = "aqfq fzbl ccap gbnn"
+EMAIL_HOST_USER = ""  # Replace with your Gmail address
+EMAIL_HOST_PASSWORD = ""
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 DATABASES = {
@@ -103,9 +99,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "HOST": "127.0.0.1",
         "PORT": "3306",
-        "NAME": "invstore1",
-        "USER": "newuser",
-        "PASSWORD": "7890Cjp-",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
     },
     "mongodb": {
         "ENGINE": "djongo",
